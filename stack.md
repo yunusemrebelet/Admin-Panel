@@ -4,7 +4,7 @@
 
 ### jQuery Nedir?
 
-JQuery cross-platform çalışabilen AJAX kullanımı, DOM manipülasyonu, CSS manipülasyonu gibi işlemlerinde hem daha kolay bir şekilde hem de  daha az kod yazarak daha çok şey yapmamızı sağlayan bir JavaScript kütüphanesidir.
+JQuery cross-platform çalışabilen AJAX kullanımı, DOM manipülasyonu, CSS manipülasyonu gibi işlemlerinde hem daha kolay bir şekilde hem de daha az kod yazarak daha çok şey yapmamızı sağlayan bir JavaScript kütüphanesidir.
 
 ### JQuery'nin Projeye Dahil Edilmesi
 
@@ -40,9 +40,9 @@ JQuery'i projede kullanmak için birkaç yol mevcuttur:
     </body>
     </html>
 
-**_$(document).ready(function()_** kod satırı bütün HTML sayfası yüklendikten sonra jQuery işlemlerinin yapılmasını belirtmek için kullanılır.
+**_\$(document).ready(function()_** kod satırı bütün HTML sayfası yüklendikten sonra jQuery işlemlerinin yapılmasını belirtmek için kullanılır.
 
-jQuery de DOM manipülasyonu yapmak için seçicilere ihtiyaç duyarız. Üstteki örnek kodda **_$("p")_** bütün **"p"** taglarini seçmek için kullanılır.
+jQuery de DOM manipülasyonu yapmak için seçicilere ihtiyaç duyarız. Üstteki örnek kodda **_\$("p")_** bütün **"p"** taglarini seçmek için kullanılır.
 Aslında jQuery'de seçiciler CSS seçicileri ile aynıdır. _**".sınıf"**_ ile _**"sınıf"**_ isimli bir class seçmiş oluruz. **_"#sınıf"_** ile _**"sınıf"**_ id sine sahip elementi seçmiş oluruz.
 
 jQuery'de seçiciler ile ilgili daha fazla bilgi almak [için](https://www.javatpoint.com/jquery-selectors).
@@ -84,7 +84,7 @@ CDN ile kurmak için:
 
 Bu kod satırının çıktısı şu şekilde olacaktır:
 
-![bt](oo.png)
+![bt](img/oo.png)
 
 Bootstrap içerisinde belirtilen classları elementlerimize verdiğimizde kolay bir şekilde istediğimiz tasarımları ortaya çıkarabiliriz.
 
@@ -97,7 +97,7 @@ VueJS, kullanıcı arayüzleri geliştirebilmek için açık kaynak kodlu geliş
 ### Vue.js kullanımı
 
 Npm ile Vue.cli kurulumu:
-   
+
     npm install -g @vue/cli
 
 CDN ile kullanmak için:
@@ -190,9 +190,9 @@ ES6' da ise değişken tanımlamak için yeni iki farklı anahtar kelime daha ge
 var keyword’ü aralarında en geniş kapsama sahip keyword’dür. Örneklerle inceleyecek olursak
 
 - Sonradan tekrar değiştirilebilir
-  
+
 - Kodun herhangi bir noktasında tekrar tekrar tanımlanabilir.
-  
+
 - Sadece fonksion ile kapsanabilir (function scope) fonksiyon süslü parantezleri içerisinde var ile tanımlanan değişkene dışarıdan erişilemez.
 
 #### let
